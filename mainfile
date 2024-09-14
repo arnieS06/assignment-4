@@ -10,4 +10,6 @@ int main() {
     cout << "------------------------------" << endl;
     cout << " Javascript\t |\t\t50\t\t|" << endl;
     cout << "------------------------------" << endl;
+
+    return 0;
 }
