@@ -1,15 +1,23 @@
 #include <iostream>
+#include <iomanip>  
 using namespace std;
 
-// function that puts basic student data into a table
 int main() {
+    cout << left << setw(15) << "Course" << "|"
+         << setw(15) << "Student" << "|" << endl;
 
-    cout << "   Course \t | \t Student\t|" << endl;
-    cout << "------------------------------" << endl;
-    cout << "\t C++ \t |\t\t100 \t|" << endl;
-    cout << "------------------------------" << endl;
-    cout << " Javascript\t |\t\t50\t\t|" << endl;
-    cout << "------------------------------" << endl;
+    
+    cout << "--------------------------" << endl;
+ 
+    cout << setw(15) << "C++" << "|"
+         << setw(15) << "100" << "|" << endl;
+
+    cout << "--------------------------" << endl;
+
+    cout << setw(15) << "Javascript" << "|"
+         << setw(15) << "50" << "|" << endl;
+
+    cout << "--------------------------" << endl;
 
     return 0;
 }
